@@ -29,6 +29,27 @@ _✨ 跨平台 Python 异步机器人框架 ✨_
   
 </div>
 
+# 简单部署
+
+```
+
+# 配置gocq
+
+在 https://github.com/Mrs4s/go-cqhttp 下载Releases最新版本，运行后选择反向代理，
+  后将gocq的配置文件config.yml中的universal改为universal: ws://127.0.0.1:8080/onebot/v11/ws
+
+gocq配置详情稍后补充
+
+# 获取代码
+git clone https://github.com/qiankezzz/hina_bot.git
+
+# 进入目录
+cd hina_bot
+
+# 开始运行
+python bot.py
+```
+
 ## 功能列表
 
 <details>
@@ -50,6 +71,9 @@ _✨ 跨平台 Python 异步机器人框架 ✨_
 * [x] [早晚安记录作息，培养优质睡眠😴](https://github.com/MinatoAquaCrews/nonebot_plugin_morning) 
 * [x] 定时提醒群友学习，根据学习状态发送特定内容~
 * [x] [模拟csgo开箱](https://github.com/roiiiu/nonebot-plugin-csgo-case-simulator)
+
+</details>
+
 
 
 ## 感谢
