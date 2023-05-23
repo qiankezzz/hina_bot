@@ -1,0 +1,2140 @@
+{
+  "avatars": [
+    {
+      "id": 10000049,
+      "rarity": 5,
+      "name": "宵宫",
+      "slogan": "琉焰华舞",
+      "element": "火",
+      "cons": 0,
+      "fetter": 10,
+      "level": 90,
+      "icon": "UI_AvatarIcon_Yoimiya",
+      "gachaAvatarImg": "UI_Gacha_AvatarImg_Yoimiya",
+      "baseProp": {
+        "生命值": 10164.1064453125,
+        "攻击力": 832.4967651367188,
+        "防御力": 614.843505859375
+      },
+      "fightProp": {
+        "生命值": 17095.1171875,
+        "攻击力": 2272.09935606776,
+        "防御力": 714.172607421875,
+        "暴击率": 66.20000004768372,
+        "暴击伤害": 163.48999738693237,
+        "治疗加成": 0,
+        "元素精通": 34.970001220703125,
+        "元素充能效率": 100,
+        "物理伤害加成": 0,
+        "火元素伤害加成": 46.59999907016754,
+        "水元素伤害加成": 0,
+        "风元素伤害加成": 0,
+        "雷元素伤害加成": 0,
+        "草元素伤害加成": 0,
+        "冰元素伤害加成": 0,
+        "岩元素伤害加成": 0
+      },
+      "skills": {
+        "a": {
+          "style": "",
+          "icon": "Skill_A_02",
+          "level": 10,
+          "originLvl": 10
+        },
+        "e": {
+          "style": "",
+          "icon": "Skill_S_Yoimiya_01",
+          "level": 8,
+          "originLvl": 8
+        },
+        "q": {
+          "style": "",
+          "icon": "Skill_E_Yoimiya_01",
+          "level": 2,
+          "originLvl": 2
+        }
+      },
+      "consts": [
+        {
+          "style": "off",
+          "icon": "UI_Talent_S_Yoimiya_01"
+        },
+        {
+          "style": "off",
+          "icon": "UI_Talent_S_Yoimiya_02"
+        },
+        {
+          "style": "off",
+          "icon": "UI_Talent_U_Yoimiya_01"
+        },
+        {
+          "style": "off",
+          "icon": "UI_Talent_S_Yoimiya_03"
+        },
+        {
+          "style": "off",
+          "icon": "UI_Talent_U_Yoimiya_02"
+        },
+        {
+          "style": "off",
+          "icon": "UI_Talent_S_Yoimiya_04"
+        }
+      ],
+      "weapon": {
+        "id": 15405,
+        "rarity": 4,
+        "name": "弓藏",
+        "affix": 3,
+        "level": 90,
+        "icon": "UI_EquipIcon_Bow_Recluse",
+        "main": 510,
+        "sub": {
+          "prop": "攻击力",
+          "value": "41.3%"
+        }
+      },
+      "relics": [
+        {
+          "pos": 1,
+          "rarity": 5,
+          "name": "羁缠之花",
+          "setName": "追忆之注连",
+          "level": 20,
+          "main": {
+            "prop": "生命值",
+            "value": "4780"
+          },
+          "sub": [
+            {
+              "prop": "防御力",
+              "value": "23"
+            },
+            {
+              "prop": "暴击伤害",
+              "value": "11.7%"
+            },
+            {
+              "prop": "攻击力",
+              "value": "5.8%"
+            },
+            {
+              "prop": "暴击率",
+              "value": "13.6%"
+            }
+          ],
+          "calc": {
+            "rank": "SSS",
+            "total": 44.6,
+            "nohit": 0,
+            "main": 0.0,
+            "sub": [
+              {
+                "style": "unuse",
+                "goal": 0.0
+              },
+              {
+                "style": "great",
+                "goal": 11.7
+              },
+              {
+                "style": "use",
+                "goal": 5.8
+              },
+              {
+                "style": "great",
+                "goal": 27.2
+              }
+            ],
+            "main_pct": 100,
+            "total_pct": 100.0
+          },
+          "icon": "UI_RelicIcon_15019_4"
+        },
+        {
+          "pos": 2,
+          "rarity": 5,
+          "name": "思忆之矢",
+          "setName": "追忆之注连",
+          "level": 20,
+          "main": {
+            "prop": "攻击力",
+            "value": "311"
+          },
+          "sub": [
+            {
+              "prop": "攻击力",
+              "value": "5.8%"
+            },
+            {
+              "prop": "暴击率",
+              "value": "3.1%"
+            },
+            {
+              "prop": "生命值",
+              "value": "866"
+            },
+            {
+              "prop": "暴击伤害",
+              "value": "17.9%"
+            }
+          ],
+          "calc": {
+            "rank": "S",
+            "total": 29.9,
+            "nohit": 2,
+            "main": 0.0,
+            "sub": [
+              {
+                "style": "use",
+                "goal": 5.8
+              },
+              {
+                "style": "great",
+                "goal": 6.2
+              },
+              {
+                "style": "unuse",
+                "goal": 0.0
+              },
+              {
+                "style": "great",
+                "goal": 17.9
+              }
+            ],
+            "main_pct": 100,
+            "total_pct": 100.0
+          },
+          "icon": "UI_RelicIcon_15019_2"
+        },
+        {
+          "pos": 3,
+          "rarity": 5,
+          "name": "朝露之时",
+          "setName": "追忆之注连",
+          "level": 20,
+          "main": {
+            "prop": "攻击力",
+            "value": "46.6%"
+          },
+          "sub": [
+            {
+              "prop": "暴击率",
+              "value": "7.4%"
+            },
+            {
+              "prop": "元素精通",
+              "value": "35"
+            },
+            {
+              "prop": "防御力",
+              "value": "12.4%"
+            },
+            {
+              "prop": "暴击伤害",
+              "value": "14.8%"
+            }
+          ],
+          "calc": {
+            "rank": "SSS",
+            "total": 45.9,
+            "nohit": 1,
+            "main": 11.6,
+            "sub": [
+              {
+                "style": "great",
+                "goal": 14.8
+              },
+              {
+                "style": "use",
+                "goal": 8.7
+              },
+              {
+                "style": "unuse",
+                "goal": 0.0
+              },
+              {
+                "style": "great",
+                "goal": 14.8
+              }
+            ],
+            "main_pct": 100.0,
+            "total_pct": 91.9
+          },
+          "icon": "UI_RelicIcon_15019_5"
+        },
+        {
+          "pos": 4,
+          "rarity": 5,
+          "name": "绯花之壶",
+          "setName": "绝缘之旗印",
+          "level": 20,
+          "main": {
+            "prop": "火伤加成",
+            "value": "46.6%"
+          },
+          "sub": [
+            {
+              "prop": "暴击率",
+              "value": "10.1%"
+            },
+            {
+              "prop": "攻击力",
+              "value": "5.8%"
+            },
+            {
+              "prop": "暴击伤害",
+              "value": "7%"
+            },
+            {
+              "prop": "生命值",
+              "value": "777"
+            }
+          ],
+          "calc": {
+            "rank": "SS",
+            "total": 39.2,
+            "nohit": 3,
+            "main": 15.5,
+            "sub": [
+              {
+                "style": "great",
+                "goal": 20.2
+              },
+              {
+                "style": "use",
+                "goal": 5.8
+              },
+              {
+                "style": "great",
+                "goal": 7.0
+              },
+              {
+                "style": "unuse",
+                "goal": 0.0
+              }
+            ],
+            "main_pct": 100.0,
+            "total_pct": 80.9
+          },
+          "icon": "UI_RelicIcon_15020_1"
+        },
+        {
+          "pos": 5,
+          "rarity": 5,
+          "name": "无常之面",
+          "setName": "追忆之注连",
+          "level": 20,
+          "main": {
+            "prop": "暴击伤害",
+            "value": "62.2%"
+          },
+          "sub": [
+            {
+              "prop": "暴击率",
+              "value": "7.8%"
+            },
+            {
+              "prop": "生命值",
+              "value": "508"
+            },
+            {
+              "prop": "攻击力",
+              "value": "8.2%"
+            },
+            {
+              "prop": "攻击力",
+              "value": "33"
+            }
+          ],
+          "calc": {
+            "rank": "SS",
+            "total": 38.7,
+            "nohit": 1,
+            "main": 15.5,
+            "sub": [
+              {
+                "style": "great",
+                "goal": 15.6
+              },
+              {
+                "style": "unuse",
+                "goal": 0.0
+              },
+              {
+                "style": "use",
+                "goal": 8.2
+              },
+              {
+                "style": "use",
+                "goal": 4.0
+              }
+            ],
+            "main_pct": 100.0,
+            "total_pct": 89.5
+          },
+          "icon": "UI_RelicIcon_15019_3"
+        }
+      ],
+      "relicSet": {
+        "追忆之注连": 4,
+        "绝缘之旗印": 1
+      },
+      "relicCalc": {
+        "rank": "SS",
+        "total": 198.3
+      },
+      "damage": {
+        "level": "ACE",
+        "data": [
+          [
+            "开E一轮平A总伤害",
+            "89442",
+            "70684"
+          ],
+          [
+            "开E一轮平A蒸发",
+            "118459",
+            "93615"
+          ]
+        ],
+        "buff": [
+          [
+            "弓藏被动",
+            "普通攻击伤害提升60%"
+          ],
+          [
+            "追忆4效果",
+            "开E后普攻/重击伤害提升50%"
+          ],
+          [
+            "宵宫天赋",
+            "满层后获得20%火伤加成"
+          ]
+        ]
+      },
+      "time": 1678785211
+    },
+    {
+      "id": 10000052,
+      "rarity": 5,
+      "name": "雷电将军",
+      "slogan": "一心净土",
+      "element": "雷",
+      "cons": 0,
+      "fetter": 5,
+      "level": 90,
+      "icon": "UI_AvatarIcon_Shougun",
+      "gachaAvatarImg": "UI_Gacha_AvatarImg_Shougun",
+      "baseProp": {
+        "生命值": 12907.1904296875,
+        "攻击力": 945.316162109375,
+        "防御力": 789.305419921875
+      },
+      "fightProp": {
+        "生命值": 17687.19140625,
+        "攻击力": 1999.964199776674,
+        "防御力": 789.305419921875,
+        "暴击率": 55.93000054359436,
+        "暴击伤害": 118.37999820709229,
+        "治疗加成": 0,
+        "元素精通": 39.62999725341797,
+        "元素充能效率": 289.3779993057251,
+        "物理伤害加成": 0,
+        "火元素伤害加成": 0,
+        "水元素伤害加成": 0,
+        "风元素伤害加成": 0,
+        "雷元素伤害加成": 122.35119342803955,
+        "草元素伤害加成": 0,
+        "冰元素伤害加成": 0,
+        "岩元素伤害加成": 0
+      },
+      "skills": {
+        "a": {
+          "style": "",
+          "icon": "Skill_A_03",
+          "level": 1,
+          "originLvl": 1
+        },
+        "e": {
+          "style": "",
+          "icon": "Skill_S_Shougun_01",
+          "level": 8,
+          "originLvl": 8
+        },
+        "q": {
+          "style": "",
+          "icon": "Skill_E_Shougun_01",
+          "level": 10,
+          "originLvl": 10
+        }
+      },
+      "consts": [
+        {
+          "style": "off",
+          "icon": "UI_Talent_S_Shougun_01"
+        },
+        {
+          "style": "off",
+          "icon": "UI_Talent_S_Shougun_03"
+        },
+        {
+          "style": "off",
+          "icon": "UI_Talent_U_Shougun_02"
+        },
+        {
+          "style": "off",
+          "icon": "UI_Talent_S_Shougun_02"
+        },
+        {
+          "style": "off",
+          "icon": "UI_Talent_U_Shougun_01"
+        },
+        {
+          "style": "off",
+          "icon": "UI_Talent_S_Shougun_04"
+        }
+      ],
+      "weapon": {
+        "id": 13509,
+        "rarity": 5,
+        "name": "薙草之稻光",
+        "affix": 1,
+        "level": 90,
+        "icon": "UI_EquipIcon_Pole_Narukami",
+        "main": 608,
+        "sub": {
+          "prop": "元素充能效率",
+          "value": "55.1%"
+        }
+      },
+      "relics": [
+        {
+          "pos": 1,
+          "rarity": 5,
+          "name": "明威之镡",
+          "setName": "绝缘之旗印",
+          "level": 20,
+          "main": {
+            "prop": "生命值",
+            "value": "4780"
+          },
+          "sub": [
+            {
+              "prop": "暴击伤害",
+              "value": "13.2%"
+            },
+            {
+              "prop": "充能效率",
+              "value": "11.7%"
+            },
+            {
+              "prop": "暴击率",
+              "value": "7%"
+            },
+            {
+              "prop": "攻击力",
+              "value": "9.9%"
+            }
+          ],
+          "calc": {
+            "rank": "SSS",
+            "total": 48.8,
+            "nohit": 0,
+            "main": 0.0,
+            "sub": [
+              {
+                "style": "great",
+                "goal": 13.2
+              },
+              {
+                "style": "great",
+                "goal": 12.6
+              },
+              {
+                "style": "great",
+                "goal": 14.0
+              },
+              {
+                "style": "use",
+                "goal": 9.9
+              }
+            ],
+            "main_pct": 100,
+            "total_pct": 98.2
+          },
+          "icon": "UI_RelicIcon_15020_4"
+        },
+        {
+          "pos": 2,
+          "rarity": 5,
+          "name": "切落之羽",
+          "setName": "绝缘之旗印",
+          "level": 20,
+          "main": {
+            "prop": "攻击力",
+            "value": "311"
+          },
+          "sub": [
+            {
+              "prop": "攻击力",
+              "value": "5.3%"
+            },
+            {
+              "prop": "充能效率",
+              "value": "21.4%"
+            },
+            {
+              "prop": "元素精通",
+              "value": "16"
+            },
+            {
+              "prop": "暴击伤害",
+              "value": "22.5%"
+            }
+          ],
+          "calc": {
+            "rank": "ACE",
+            "total": 50.0,
+            "nohit": 0,
+            "main": 0.0,
+            "sub": [
+              {
+                "style": "use",
+                "goal": 5.3
+              },
+              {
+                "style": "great",
+                "goal": 23.1
+              },
+              {
+                "style": "unuse",
+                "goal": 0.0
+              },
+              {
+                "style": "great",
+                "goal": 22.5
+              }
+            ],
+            "main_pct": 100,
+            "total_pct": 98.2
+          },
+          "icon": "UI_RelicIcon_15020_2"
+        },
+        {
+          "pos": 3,
+          "rarity": 5,
+          "name": "雷云之笼",
+          "setName": "绝缘之旗印",
+          "level": 20,
+          "main": {
+            "prop": "攻击力",
+            "value": "46.6%"
+          },
+          "sub": [
+            {
+              "prop": "攻击力",
+              "value": "16"
+            },
+            {
+              "prop": "暴击伤害",
+              "value": "18.7%"
+            },
+            {
+              "prop": "充能效率",
+              "value": "16.8%"
+            },
+            {
+              "prop": "暴击率",
+              "value": "2.7%"
+            }
+          ],
+          "calc": {
+            "rank": "SSS",
+            "total": 45.3,
+            "nohit": 0,
+            "main": 11.6,
+            "sub": [
+              {
+                "style": "use",
+                "goal": 1.7
+              },
+              {
+                "style": "great",
+                "goal": 18.7
+              },
+              {
+                "style": "great",
+                "goal": 18.1
+              },
+              {
+                "style": "great",
+                "goal": 5.4
+              }
+            ],
+            "main_pct": 91.6,
+            "total_pct": 89.0
+          },
+          "icon": "UI_RelicIcon_15020_5"
+        },
+        {
+          "pos": 4,
+          "rarity": 5,
+          "name": "绯花之壶",
+          "setName": "绝缘之旗印",
+          "level": 20,
+          "main": {
+            "prop": "雷伤加成",
+            "value": "46.6%"
+          },
+          "sub": [
+            {
+              "prop": "暴击率",
+              "value": "10.1%"
+            },
+            {
+              "prop": "攻击力",
+              "value": "35"
+            },
+            {
+              "prop": "元素精通",
+              "value": "23"
+            },
+            {
+              "prop": "充能效率",
+              "value": "11.7%"
+            }
+          ],
+          "calc": {
+            "rank": "SS",
+            "total": 40.3,
+            "nohit": 0,
+            "main": 11.7,
+            "sub": [
+              {
+                "style": "great",
+                "goal": 20.2
+              },
+              {
+                "style": "use",
+                "goal": 3.7
+              },
+              {
+                "style": "unuse",
+                "goal": 0.0
+              },
+              {
+                "style": "great",
+                "goal": 12.6
+              }
+            ],
+            "main_pct": 100.0,
+            "total_pct": 83.7
+          },
+          "icon": "UI_RelicIcon_15020_1"
+        },
+        {
+          "pos": 5,
+          "rarity": 5,
+          "name": "无常之面",
+          "setName": "追忆之注连",
+          "level": 20,
+          "main": {
+            "prop": "暴击率",
+            "value": "31.1%"
+          },
+          "sub": [
+            {
+              "prop": "攻击力",
+              "value": "16"
+            },
+            {
+              "prop": "充能效率",
+              "value": "20.7%"
+            },
+            {
+              "prop": "攻击力",
+              "value": "9.9%"
+            },
+            {
+              "prop": "暴击伤害",
+              "value": "14%"
+            }
+          ],
+          "calc": {
+            "rank": "ACE",
+            "total": 55.8,
+            "nohit": 0,
+            "main": 15.5,
+            "sub": [
+              {
+                "style": "use",
+                "goal": 1.7
+              },
+              {
+                "style": "great",
+                "goal": 22.3
+              },
+              {
+                "style": "use",
+                "goal": 9.9
+              },
+              {
+                "style": "great",
+                "goal": 14.0
+              }
+            ],
+            "main_pct": 100.0,
+            "total_pct": 88.1
+          },
+          "icon": "UI_RelicIcon_15019_3"
+        }
+      ],
+      "relicSet": {
+        "绝缘之旗印": 4,
+        "追忆之注连": 1
+      },
+      "relicCalc": {
+        "rank": "SSS",
+        "total": 240.2
+      },
+      "damage": {
+        "level": "ACE",
+        "data": [
+          [
+            "满愿力Q拔刀伤害",
+            "98349",
+            "74836"
+          ],
+          [
+            "雷国满愿力Q拔刀",
+            "160370",
+            "122029"
+          ],
+          [
+            "雷九万班满Q拔刀",
+            "340978",
+            "244619"
+          ]
+        ],
+        "buff": [
+          [
+            "薙草之稻光被动",
+            "开大后充能效率提升30%"
+          ],
+          [
+            "薙草之稻光被动",
+            "基于充能效率获得581(61.4%)攻击力"
+          ],
+          [
+            "绝缘4效果",
+            "获得75%元素爆发伤害加成"
+          ],
+          [
+            "雷电将军E被动",
+            "元素爆发伤害提升27%"
+          ],
+          [
+            "雷电将军天赋",
+            "基于充能效率获得87.8%雷伤加成"
+          ],
+          [
+            "雷电将军Q被动",
+            "满愿力获得420%大招倍率加成"
+          ],
+          [
+            "班尼特Q",
+            "风鹰剑13级Q提供1202攻击力"
+          ],
+          [
+            "双火共鸣",
+            "攻击力提高236(25%)"
+          ],
+          [
+            "班尼特宗室4",
+            "开Q后队友攻击力提高189(20%)"
+          ],
+          [
+            "九条裟罗E",
+            "天空弓12级E提供748攻击力"
+          ],
+          [
+            "九条裟罗6命",
+            "提供60%雷元素暴击伤害加成"
+          ],
+          [
+            "万叶天赋",
+            "1000精通万叶提供40%元素伤害加成"
+          ],
+          [
+            "万叶风套4",
+            "敌人雷元素抗性降低40%"
+          ],
+          [
+            "万叶苍古",
+            "触发后攻击力提升(189)20%"
+          ]
+        ]
+      },
+      "time": 1678785211
+    },
+    {
+      "id": 10000042,
+      "rarity": 5,
+      "name": "刻晴",
+      "slogan": "霆霓快雨",
+      "element": "雷",
+      "cons": 1,
+      "fetter": 5,
+      "level": 80,
+      "icon": "UI_AvatarIcon_Keqing",
+      "gachaAvatarImg": "UI_Gacha_AvatarImg_Keqing",
+      "baseProp": {
+        "生命值": 11560.58984375,
+        "攻击力": 686.1730346679688,
+        "防御力": 705.2009887695312
+      },
+      "fightProp": {
+        "生命值": 17356.349609375,
+        "攻击力": 1718.6980809455526,
+        "防御力": 813.4053344726562,
+        "暴击率": 50.4800021648407,
+        "暴击伤害": 187.0587944984436,
+        "治疗加成": 0,
+        "元素精通": 111.89999389648438,
+        "元素充能效率": 122.02000617980957,
+        "物理伤害加成": 0,
+        "火元素伤害加成": 0,
+        "水元素伤害加成": 0,
+        "风元素伤害加成": 0,
+        "雷元素伤害加成": 61.59999966621399,
+        "草元素伤害加成": 0,
+        "冰元素伤害加成": 0,
+        "岩元素伤害加成": 0
+      },
+      "skills": {
+        "a": {
+          "style": "",
+          "icon": "Skill_A_01",
+          "level": 7,
+          "originLvl": 7
+        },
+        "e": {
+          "style": "",
+          "icon": "Skill_S_Keqing_01",
+          "level": 4,
+          "originLvl": 4
+        },
+        "q": {
+          "style": "",
+          "icon": "Skill_E_Keqing_01",
+          "level": 8,
+          "originLvl": 8
+        }
+      },
+      "consts": [
+        {
+          "style": "",
+          "icon": "UI_Talent_S_Keqing_01"
+        },
+        {
+          "style": "off",
+          "icon": "UI_Talent_S_Keqing_02"
+        },
+        {
+          "style": "off",
+          "icon": "UI_Talent_U_Keqing_01"
+        },
+        {
+          "style": "off",
+          "icon": "UI_Talent_S_Keqing_03"
+        },
+        {
+          "style": "off",
+          "icon": "UI_Talent_U_Keqing_02"
+        },
+        {
+          "style": "off",
+          "icon": "UI_Talent_S_Keqing_04"
+        }
+      ],
+      "weapon": {
+        "id": 11302,
+        "rarity": 3,
+        "name": "黎明神剑",
+        "affix": 5,
+        "level": 90,
+        "icon": "UI_EquipIcon_Sword_Dawn",
+        "main": 401,
+        "sub": {
+          "prop": "暴击伤害",
+          "value": "46.9%"
+        }
+      },
+      "relics": [
+        {
+          "pos": 1,
+          "rarity": 5,
+          "name": "明威之镡",
+          "setName": "绝缘之旗印",
+          "level": 20,
+          "main": {
+            "prop": "生命值",
+            "value": "4780"
+          },
+          "sub": [
+            {
+              "prop": "攻击力",
+              "value": "31"
+            },
+            {
+              "prop": "攻击力",
+              "value": "15.7%"
+            },
+            {
+              "prop": "暴击伤害",
+              "value": "15.5%"
+            },
+            {
+              "prop": "防御力",
+              "value": "21"
+            }
+          ],
+          "calc": {
+            "rank": "S",
+            "total": 35.7,
+            "nohit": 1,
+            "main": 0.0,
+            "sub": [
+              {
+                "style": "use",
+                "goal": 4.5
+              },
+              {
+                "style": "use",
+                "goal": 15.7
+              },
+              {
+                "style": "great",
+                "goal": 15.5
+              },
+              {
+                "style": "unuse",
+                "goal": 0.0
+              }
+            ],
+            "main_pct": 100,
+            "total_pct": 100.0
+          },
+          "icon": "UI_RelicIcon_15020_4"
+        },
+        {
+          "pos": 2,
+          "rarity": 5,
+          "name": "雷灾的孑遗",
+          "setName": "如雷的盛怒",
+          "level": 20,
+          "main": {
+            "prop": "攻击力",
+            "value": "311"
+          },
+          "sub": [
+            {
+              "prop": "暴击伤害",
+              "value": "11.7%"
+            },
+            {
+              "prop": "攻击力",
+              "value": "5.8%"
+            },
+            {
+              "prop": "暴击率",
+              "value": "8.2%"
+            },
+            {
+              "prop": "元素精通",
+              "value": "56"
+            }
+          ],
+          "calc": {
+            "rank": "SSS",
+            "total": 47.8,
+            "nohit": 0,
+            "main": 0.0,
+            "sub": [
+              {
+                "style": "great",
+                "goal": 11.7
+              },
+              {
+                "style": "use",
+                "goal": 5.8
+              },
+              {
+                "style": "great",
+                "goal": 16.4
+              },
+              {
+                "style": "use",
+                "goal": 14.0
+              }
+            ],
+            "main_pct": 100,
+            "total_pct": 100.0
+          },
+          "icon": "UI_RelicIcon_15005_2"
+        },
+        {
+          "pos": 3,
+          "rarity": 5,
+          "name": "雷霆的时计",
+          "setName": "如雷的盛怒",
+          "level": 20,
+          "main": {
+            "prop": "攻击力",
+            "value": "46.6%"
+          },
+          "sub": [
+            {
+              "prop": "暴击伤害",
+              "value": "20.2%"
+            },
+            {
+              "prop": "充能效率",
+              "value": "10.4%"
+            },
+            {
+              "prop": "防御力",
+              "value": "6.6%"
+            },
+            {
+              "prop": "生命值",
+              "value": "568"
+            }
+          ],
+          "calc": {
+            "rank": "A",
+            "total": 29.2,
+            "nohit": 3,
+            "main": 11.6,
+            "sub": [
+              {
+                "style": "great",
+                "goal": 20.2
+              },
+              {
+                "style": "unuse",
+                "goal": 0.0
+              },
+              {
+                "style": "unuse",
+                "goal": 0.0
+              },
+              {
+                "style": "unuse",
+                "goal": 0.0
+              }
+            ],
+            "main_pct": 100.0,
+            "total_pct": 91.9
+          },
+          "icon": "UI_RelicIcon_15005_5"
+        },
+        {
+          "pos": 4,
+          "rarity": 5,
+          "name": "祈望之心",
+          "setName": "追忆之注连",
+          "level": 20,
+          "main": {
+            "prop": "雷伤加成",
+            "value": "46.6%"
+          },
+          "sub": [
+            {
+              "prop": "暴击伤害",
+              "value": "14%"
+            },
+            {
+              "prop": "暴击率",
+              "value": "6.2%"
+            },
+            {
+              "prop": "生命值",
+              "value": "448"
+            },
+            {
+              "prop": "攻击力",
+              "value": "9.9%"
+            }
+          ],
+          "calc": {
+            "rank": "SS",
+            "total": 41.9,
+            "nohit": 1,
+            "main": 15.5,
+            "sub": [
+              {
+                "style": "great",
+                "goal": 14.0
+              },
+              {
+                "style": "great",
+                "goal": 12.4
+              },
+              {
+                "style": "unuse",
+                "goal": 0.0
+              },
+              {
+                "style": "use",
+                "goal": 9.9
+              }
+            ],
+            "main_pct": 100.0,
+            "total_pct": 80.9
+          },
+          "icon": "UI_RelicIcon_15019_1"
+        },
+        {
+          "pos": 5,
+          "rarity": 5,
+          "name": "无常之面",
+          "setName": "追忆之注连",
+          "level": 20,
+          "main": {
+            "prop": "暴击率",
+            "value": "31.1%"
+          },
+          "sub": [
+            {
+              "prop": "防御力",
+              "value": "5.8%"
+            },
+            {
+              "prop": "元素精通",
+              "value": "56"
+            },
+            {
+              "prop": "充能效率",
+              "value": "11.7%"
+            },
+            {
+              "prop": "攻击力",
+              "value": "31"
+            }
+          ],
+          "calc": {
+            "rank": "S",
+            "total": 30.4,
+            "nohit": 1,
+            "main": 15.5,
+            "sub": [
+              {
+                "style": "unuse",
+                "goal": 0.0
+              },
+              {
+                "style": "use",
+                "goal": 14.0
+              },
+              {
+                "style": "unuse",
+                "goal": 0.0
+              },
+              {
+                "style": "use",
+                "goal": 4.5
+              }
+            ],
+            "main_pct": 100.0,
+            "total_pct": 89.5
+          },
+          "icon": "UI_RelicIcon_15019_3"
+        }
+      ],
+      "relicSet": {
+        "绝缘之旗印": 1,
+        "如雷的盛怒": 2,
+        "追忆之注连": 2
+      },
+      "relicCalc": {
+        "rank": "SS",
+        "total": 185.0
+      },
+      "damage": {
+        "level": "D",
+        "data": [
+          [
+            "E后重击总伤害",
+            "9067",
+            "7797"
+          ],
+          [
+            "Q大招总伤害",
+            "26467",
+            "25346"
+          ],
+          [
+            "Q大招超激化",
+            "40994",
+            "39258"
+          ]
+        ],
+        "buff": [
+          [
+            "黎明神剑被动",
+            "暴击率提升28%"
+          ],
+          [
+            "刻晴天赋",
+            "开Q后暴击率提升15%"
+          ]
+        ]
+      },
+      "time": 1678785211
+    },
+    {
+      "id": 10000073,
+      "rarity": 5,
+      "name": "纳西妲",
+      "slogan": "白草净华",
+      "element": "草",
+      "cons": 0,
+      "fetter": 10,
+      "level": 80,
+      "icon": "UI_AvatarIcon_Nahida",
+      "gachaAvatarImg": "UI_Gacha_AvatarImg_Nahida",
+      "baseProp": {
+        "生命值": 9140.427734375,
+        "攻击力": 718.1404418945312,
+        "防御力": 556.0238647460938
+      },
+      "fightProp": {
+        "生命值": 14400.2998046875,
+        "攻击力": 1095.2804260253906,
+        "防御力": 667.7211303710938,
+        "暴击率": 34.16000008583069,
+        "暴击伤害": 102.83999443054199,
+        "治疗加成": 0,
+        "元素精通": 870.4119873046875,
+        "元素充能效率": 149.22000169754028,
+        "物理伤害加成": 0,
+        "火元素伤害加成": 0,
+        "水元素伤害加成": 0,
+        "风元素伤害加成": 0,
+        "雷元素伤害加成": 0,
+        "草元素伤害加成": 46.59999907016754,
+        "冰元素伤害加成": 0,
+        "岩元素伤害加成": 0
+      },
+      "skills": {
+        "a": {
+          "style": "",
+          "icon": "Skill_A_Catalyst_MD",
+          "level": 1,
+          "originLvl": 1
+        },
+        "e": {
+          "style": "",
+          "icon": "Skill_S_Nahida_01",
+          "level": 8,
+          "originLvl": 8
+        },
+        "q": {
+          "style": "",
+          "icon": "Skill_E_Nahida_01",
+          "level": 8,
+          "originLvl": 8
+        }
+      },
+      "consts": [
+        {
+          "style": "off",
+          "icon": "UI_Talent_S_Nahida_01"
+        },
+        {
+          "style": "off",
+          "icon": "UI_Talent_S_Nahida_02"
+        },
+        {
+          "style": "off",
+          "icon": "UI_Talent_U_Nahida_01"
+        },
+        {
+          "style": "off",
+          "icon": "UI_Talent_S_Nahida_03"
+        },
+        {
+          "style": "off",
+          "icon": "UI_Talent_U_Nahida_02"
+        },
+        {
+          "style": "off",
+          "icon": "UI_Talent_S_Nahida_04"
+        }
+      ],
+      "weapon": {
+        "id": 14403,
+        "rarity": 4,
+        "name": "祭礼残章",
+        "affix": 2,
+        "level": 90,
+        "icon": "UI_EquipIcon_Catalyst_Fossil",
+        "main": 454,
+        "sub": {
+          "prop": "元素精通",
+          "value": "221"
+        }
+      },
+      "relics": [
+        {
+          "pos": 1,
+          "rarity": 5,
+          "name": "梦中的铁花",
+          "setName": "饰金之梦",
+          "level": 20,
+          "main": {
+            "prop": "生命值",
+            "value": "4780"
+          },
+          "sub": [
+            {
+              "prop": "充能效率",
+              "value": "11.7%"
+            },
+            {
+              "prop": "暴击伤害",
+              "value": "11.7%"
+            },
+            {
+              "prop": "元素精通",
+              "value": "63"
+            },
+            {
+              "prop": "暴击率",
+              "value": "6.6%"
+            }
+          ],
+          "calc": {
+            "rank": "ACE",
+            "total": 53.2,
+            "nohit": 0,
+            "main": 0.0,
+            "sub": [
+              {
+                "style": "use",
+                "goal": 7.7
+              },
+              {
+                "style": "great",
+                "goal": 11.7
+              },
+              {
+                "style": "great",
+                "goal": 21.0
+              },
+              {
+                "style": "great",
+                "goal": 13.2
+              }
+            ],
+            "main_pct": 100,
+            "total_pct": 99.4
+          },
+          "icon": "UI_RelicIcon_15026_4"
+        },
+        {
+          "pos": 2,
+          "rarity": 5,
+          "name": "裁断的翎羽",
+          "setName": "饰金之梦",
+          "level": 20,
+          "main": {
+            "prop": "攻击力",
+            "value": "311"
+          },
+          "sub": [
+            {
+              "prop": "充能效率",
+              "value": "14.9%"
+            },
+            {
+              "prop": "暴击率",
+              "value": "12.4%"
+            },
+            {
+              "prop": "暴击伤害",
+              "value": "7%"
+            },
+            {
+              "prop": "防御力",
+              "value": "5.1%"
+            }
+          ],
+          "calc": {
+            "rank": "SS",
+            "total": 41.3,
+            "nohit": 0,
+            "main": 0.0,
+            "sub": [
+              {
+                "style": "use",
+                "goal": 9.8
+              },
+              {
+                "style": "great",
+                "goal": 24.8
+              },
+              {
+                "style": "great",
+                "goal": 7.0
+              },
+              {
+                "style": "unuse",
+                "goal": 0.0
+              }
+            ],
+            "main_pct": 100,
+            "total_pct": 99.4
+          },
+          "icon": "UI_RelicIcon_15026_2"
+        },
+        {
+          "pos": 3,
+          "rarity": 5,
+          "name": "沉金的岁月",
+          "setName": "饰金之梦",
+          "level": 16,
+          "main": {
+            "prop": "元素精通",
+            "value": "155"
+          },
+          "sub": [
+            {
+              "prop": "生命值",
+              "value": "5.3%"
+            },
+            {
+              "prop": "攻击力",
+              "value": "35"
+            },
+            {
+              "prop": "防御力",
+              "value": "60"
+            },
+            {
+              "prop": "暴击伤害",
+              "value": "14%"
+            }
+          ],
+          "calc": {
+            "rank": "A",
+            "total": 23.5,
+            "nohit": 2,
+            "main": 12.9,
+            "sub": [
+              {
+                "style": "unuse",
+                "goal": 0.0
+              },
+              {
+                "style": "use",
+                "goal": 3.6
+              },
+              {
+                "style": "unuse",
+                "goal": 0.0
+              },
+              {
+                "style": "great",
+                "goal": 14.0
+              }
+            ],
+            "main_pct": 91.6,
+            "total_pct": 84.1
+          },
+          "icon": "UI_RelicIcon_15026_5"
+        },
+        {
+          "pos": 4,
+          "rarity": 5,
+          "name": "祈望之心",
+          "setName": "追忆之注连",
+          "level": 20,
+          "main": {
+            "prop": "草伤加成",
+            "value": "46.6%"
+          },
+          "sub": [
+            {
+              "prop": "攻击力",
+              "value": "31"
+            },
+            {
+              "prop": "暴击率",
+              "value": "3.5%"
+            },
+            {
+              "prop": "暴击伤害",
+              "value": "14%"
+            },
+            {
+              "prop": "元素精通",
+              "value": "79"
+            }
+          ],
+          "calc": {
+            "rank": "ACE",
+            "total": 53.2,
+            "nohit": 0,
+            "main": 15.5,
+            "sub": [
+              {
+                "style": "use",
+                "goal": 3.2
+              },
+              {
+                "style": "great",
+                "goal": 7.0
+              },
+              {
+                "style": "great",
+                "goal": 14.0
+              },
+              {
+                "style": "great",
+                "goal": 26.3
+              }
+            ],
+            "main_pct": 100.0,
+            "total_pct": 80.5
+          },
+          "icon": "UI_RelicIcon_15019_1"
+        },
+        {
+          "pos": 5,
+          "rarity": 5,
+          "name": "华饰之兜",
+          "setName": "绝缘之旗印",
+          "level": 20,
+          "main": {
+            "prop": "元素精通",
+            "value": "187"
+          },
+          "sub": [
+            {
+              "prop": "防御力",
+              "value": "23"
+            },
+            {
+              "prop": "充能效率",
+              "value": "22.7%"
+            },
+            {
+              "prop": "暴击率",
+              "value": "6.6%"
+            },
+            {
+              "prop": "暴击伤害",
+              "value": "6.2%"
+            }
+          ],
+          "calc": {
+            "rank": "SS",
+            "total": 42.1,
+            "nohit": 0,
+            "main": 15.6,
+            "sub": [
+              {
+                "style": "unuse",
+                "goal": 0.0
+              },
+              {
+                "style": "use",
+                "goal": 15.0
+              },
+              {
+                "style": "great",
+                "goal": 13.2
+              },
+              {
+                "style": "great",
+                "goal": 6.2
+              }
+            ],
+            "main_pct": 100.1,
+            "total_pct": 84.1
+          },
+          "icon": "UI_RelicIcon_15020_3"
+        }
+      ],
+      "relicSet": {
+        "饰金之梦": 3,
+        "追忆之注连": 1,
+        "绝缘之旗印": 1
+      },
+      "relicCalc": {
+        "rank": "SS",
+        "total": 213.3
+      },
+      "damage": {
+        "level": "A",
+        "data": [
+          [
+            "灭净三业伤害",
+            "8975",
+            "6896"
+          ],
+          [
+            "灭净三业蔓激化",
+            "16988",
+            "13053"
+          ],
+          [
+            "Q站场E蔓激化",
+            "22370",
+            "17630"
+          ]
+        ],
+        "buff": [
+          [
+            "纳西妲天赋",
+            "开Q后领域内当前场上角色元素精通提升218点"
+          ],
+          [
+            "纳西妲天赋",
+            "灭净三业伤害基于元素精通提升67%，开Q后为80%(需纳西妲站场)"
+          ],
+          [
+            "纳西妲天赋",
+            "灭净三业暴击率基于元素精通提升20.1%，开Q后为24%(需纳西妲站场)"
+          ],
+          [
+            "纳西妲天赋",
+            "开Q后灭净三业伤害提升23.8%(按1位火元素角色计算)"
+          ]
+        ]
+      },
+      "time": 1678785211
+    },
+    {
+      "id": 10000034,
+      "rarity": 4,
+      "name": "诺艾尔",
+      "slogan": "未授勋之花",
+      "element": "岩",
+      "cons": 6,
+      "fetter": 9,
+      "level": 80,
+      "icon": "UI_AvatarIcon_Noel",
+      "gachaAvatarImg": "UI_Gacha_AvatarImg_Noel",
+      "baseProp": {
+        "生命值": 10697.955078125,
+        "攻击力": 679.0175170898438,
+        "防御力": 707.7080078125
+      },
+      "fightProp": {
+        "生命值": 16224.8349609375,
+        "攻击力": 1413.0032043520605,
+        "防御力": 1411.6116943359375,
+        "暴击率": 41.8940007686615,
+        "暴击伤害": 162.4899983406067,
+        "治疗加成": 0,
+        "元素精通": 37.29999923706055,
+        "元素充能效率": 117.49000549316406,
+        "物理伤害加成": 0,
+        "火元素伤害加成": 0,
+        "水元素伤害加成": 0,
+        "风元素伤害加成": 0,
+        "雷元素伤害加成": 0,
+        "草元素伤害加成": 0,
+        "冰元素伤害加成": 0,
+        "岩元素伤害加成": 46.59999907016754
+      },
+      "skills": {
+        "a": {
+          "style": "",
+          "icon": "Skill_A_04",
+          "level": 7,
+          "originLvl": 7
+        },
+        "e": {
+          "style": "extra",
+          "icon": "Skill_S_Noel_01",
+          "level": 6,
+          "originLvl": 3
+        },
+        "q": {
+          "style": "extra",
+          "icon": "Skill_E_Noel_01",
+          "level": 11,
+          "originLvl": 8
+        }
+      },
+      "consts": [
+        {
+          "style": "",
+          "icon": "UI_Talent_S_Noel_01"
+        },
+        {
+          "style": "",
+          "icon": "UI_Talent_S_Noel_02"
+        },
+        {
+          "style": "",
+          "icon": "UI_Talent_U_Noel_01"
+        },
+        {
+          "style": "",
+          "icon": "UI_Talent_S_Noel_03"
+        },
+        {
+          "style": "",
+          "icon": "UI_Talent_U_Noel_02"
+        },
+        {
+          "style": "",
+          "icon": "UI_Talent_S_Noel_04"
+        }
+      ],
+      "weapon": {
+        "id": 12409,
+        "rarity": 4,
+        "name": "螭骨剑",
+        "affix": 1,
+        "level": 90,
+        "icon": "UI_EquipIcon_Claymore_Kione",
+        "main": 510,
+        "sub": {
+          "prop": "暴击率",
+          "value": "27.6%"
+        }
+      },
+      "relics": [
+        {
+          "pos": 1,
+          "rarity": 5,
+          "name": "角斗士的留恋",
+          "setName": "角斗士的终幕礼",
+          "level": 20,
+          "main": {
+            "prop": "生命值",
+            "value": "4780"
+          },
+          "sub": [
+            {
+              "prop": "暴击率",
+              "value": "6.6%"
+            },
+            {
+              "prop": "暴击伤害",
+              "value": "20.2%"
+            },
+            {
+              "prop": "防御力",
+              "value": "39"
+            },
+            {
+              "prop": "攻击力",
+              "value": "33"
+            }
+          ],
+          "calc": {
+            "rank": "SS",
+            "total": 41.4,
+            "nohit": 0,
+            "main": 0.0,
+            "sub": [
+              {
+                "style": "great",
+                "goal": 13.2
+              },
+              {
+                "style": "great",
+                "goal": 20.2
+              },
+              {
+                "style": "great",
+                "goal": 5.3
+              },
+              {
+                "style": "use",
+                "goal": 3.2
+              }
+            ],
+            "main_pct": 100,
+            "total_pct": 98.8
+          },
+          "icon": "UI_RelicIcon_15001_4"
+        },
+        {
+          "pos": 2,
+          "rarity": 5,
+          "name": "角斗士的归宿",
+          "setName": "角斗士的终幕礼",
+          "level": 20,
+          "main": {
+            "prop": "攻击力",
+            "value": "311"
+          },
+          "sub": [
+            {
+              "prop": "暴击率",
+              "value": "2.7%"
+            },
+            {
+              "prop": "防御力",
+              "value": "46"
+            },
+            {
+              "prop": "充能效率",
+              "value": "13%"
+            },
+            {
+              "prop": "暴击伤害",
+              "value": "20.2%"
+            }
+          ],
+          "calc": {
+            "rank": "SS",
+            "total": 42.2,
+            "nohit": 0,
+            "main": 0.0,
+            "sub": [
+              {
+                "style": "great",
+                "goal": 5.4
+              },
+              {
+                "style": "great",
+                "goal": 6.2
+              },
+              {
+                "style": "use",
+                "goal": 10.9
+              },
+              {
+                "style": "great",
+                "goal": 20.2
+              }
+            ],
+            "main_pct": 100,
+            "total_pct": 98.8
+          },
+          "icon": "UI_RelicIcon_15001_2"
+        },
+        {
+          "pos": 3,
+          "rarity": 5,
+          "name": "角斗士的希冀",
+          "setName": "角斗士的终幕礼",
+          "level": 20,
+          "main": {
+            "prop": "防御力",
+            "value": "58.3%"
+          },
+          "sub": [
+            {
+              "prop": "充能效率",
+              "value": "4.5%"
+            },
+            {
+              "prop": "暴击伤害",
+              "value": "12.4%"
+            },
+            {
+              "prop": "攻击力",
+              "value": "15.7%"
+            },
+            {
+              "prop": "元素精通",
+              "value": "37"
+            }
+          ],
+          "calc": {
+            "rank": "S",
+            "total": 34.5,
+            "nohit": 2,
+            "main": 14.0,
+            "sub": [
+              {
+                "style": "use",
+                "goal": 3.8
+              },
+              {
+                "style": "great",
+                "goal": 12.4
+              },
+              {
+                "style": "use",
+                "goal": 10.5
+              },
+              {
+                "style": "unuse",
+                "goal": 0.0
+              }
+            ],
+            "main_pct": 100.0,
+            "total_pct": 85.0
+          },
+          "icon": "UI_RelicIcon_15001_5"
+        },
+        {
+          "pos": 4,
+          "rarity": 5,
+          "name": "绯花之壶",
+          "setName": "绝缘之旗印",
+          "level": 20,
+          "main": {
+            "prop": "岩伤加成",
+            "value": "46.6%"
+          },
+          "sub": [
+            {
+              "prop": "攻击力",
+              "value": "5.8%"
+            },
+            {
+              "prop": "暴击伤害",
+              "value": "18.7%"
+            },
+            {
+              "prop": "生命值",
+              "value": "209"
+            },
+            {
+              "prop": "攻击力",
+              "value": "51"
+            }
+          ],
+          "calc": {
+            "rank": "S",
+            "total": 34.5,
+            "nohit": 0,
+            "main": 15.5,
+            "sub": [
+              {
+                "style": "use",
+                "goal": 3.9
+              },
+              {
+                "style": "great",
+                "goal": 18.7
+              },
+              {
+                "style": "unuse",
+                "goal": 0.0
+              },
+              {
+                "style": "use",
+                "goal": 5.0
+              }
+            ],
+            "main_pct": 100.0,
+            "total_pct": 80.2
+          },
+          "icon": "UI_RelicIcon_15020_1"
+        },
+        {
+          "pos": 5,
+          "rarity": 5,
+          "name": "角斗士的凯旋",
+          "setName": "角斗士的终幕礼",
+          "level": 12,
+          "main": {
+            "prop": "暴击伤害",
+            "value": "41%"
+          },
+          "sub": [
+            {
+              "prop": "攻击力",
+              "value": "5.3%"
+            },
+            {
+              "prop": "攻击力",
+              "value": "35"
+            },
+            {
+              "prop": "生命值",
+              "value": "538"
+            },
+            {
+              "prop": "防御力",
+              "value": "6.6%"
+            }
+          ],
+          "calc": {
+            "rank": "C",
+            "total": 16.4,
+            "nohit": 1,
+            "main": 10.2,
+            "sub": [
+              {
+                "style": "use",
+                "goal": 3.5
+              },
+              {
+                "style": "use",
+                "goal": 3.4
+              },
+              {
+                "style": "unuse",
+                "goal": 0.0
+              },
+              {
+                "style": "great",
+                "goal": 6.3
+              }
+            ],
+            "main_pct": 83.0,
+            "total_pct": 84.1
+          },
+          "icon": "UI_RelicIcon_15001_3"
+        }
+      ],
+      "relicSet": {
+        "角斗士的终幕礼": 4,
+        "绝缘之旗印": 1
+      },
+      "relicCalc": {
+        "rank": "S",
+        "total": 169.0
+      },
+      "damage": {
+        "level": "C",
+        "data": [
+          [
+            "E护盾量",
+            "-",
+            "6569"
+          ],
+          [
+            "开Q后普攻第一段伤害",
+            "9807",
+            "6279"
+          ]
+        ],
+        "buff": [
+          [
+            "螭骨剑被动",
+            "满层后角色造成伤害提升30%"
+          ],
+          [
+            "角斗4效果",
+            "普攻伤害提升35%"
+          ],
+          [
+            "诺艾尔6命",
+            "开Q后攻击力提高706(50%防御力)"
+          ],
+          [
+            "诺艾尔Q",
+            "开Q后攻击力提高1072(76%%防御力)"
+          ]
+        ]
+      },
+      "time": 1678785211
+    }
+  ],
+  "next": 1678785271
+}

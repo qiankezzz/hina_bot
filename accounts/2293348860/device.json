@@ -1,0 +1,39 @@
+{
+    "product": "INTEX  AQUA Lions T1",
+    "device": "AQUA_LIONS_T1",
+    "board": "AQUA_LIONS_T1",
+    "brand": "Intex",
+    "model": "INTEX AQUA LIONS T1",
+    "wifi_ssid": "TP-LINK_KLKARW",
+    "android_id": "7023426",
+    "boot_id": "55508bdc-bad2-ff5c-b930-a7da16dcdddf",
+    "proc_version": "Linux version 3.5.20-arwBz5I7 (android-build@ad2ff5cb930a.source.android.com)",
+    "mac_address": "55:50:8B:DC:BA:D2",
+    "ip_address": [
+        188,
+        82,
+        51,
+        254
+    ],
+    "imei": "222045668561775",
+    "incremental": "689569631",
+    "protocol": 2,
+    "display": "7023426",
+    "finger_print": "Intex/INTEX  AQUA Lions T1/AQUA_LIONS_T1:10/7023426/689569631:user/release-keys",
+    "baseband": "",
+    "sim": "T-Mobile",
+    "sim_info": "T-Mobile",
+    "os_type": "android",
+    "bootloader": "U-boot",
+    "wifi_bssid": "55:50:8B:DC:BA:D2",
+    "apn": "wifi",
+    "version": {
+        "incremental": "689569631",
+        "release": "10",
+        "codename": "REL",
+        "sdk": 29
+    },
+    "imsi_md5": "c9763382d0d0c5d4e6a88de29e631200",
+    "vendor_name": "Intex",
+    "vendor_os_name": "android"
+}

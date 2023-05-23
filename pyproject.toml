@@ -1,0 +1,14 @@
+[project]
+name = "hinabot"
+version = "0.1.0"
+description = "hinabot"
+readme = "README.md"
+requires-python = ">=3.8, <4.0"
+
+[tool.nonebot]
+adapters = [
+    { name = "OneBot V11", module_name = "nonebot.adapters.onebot.v11" }
+]
+plugins = [ "nonebot_plugin_remake", "nonebot_plugin_gspanel", "nonebot_plugin_learning_chat", "nonebot_plugin_morning", "nonebot_plugin_summon", "nonebot_plugin_bing_chat", "nonebot_plugin_revoke", "nonebot-plugin-resolver", "nonebot_plugin_docs", "nonebot_plugin_fortune", "nonebot_plugin_chatppt", "nonebot-plugin-csgo-case-simulator"]
+plugin_dirs = []
+builtin_plugins = ["echo"]

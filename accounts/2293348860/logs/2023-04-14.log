@@ -1,0 +1,43 @@
+[2023-04-14 08:16:32] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-04-14 08:16:49] [WARNING]: 警告: 本地连接媒体服务器丢包率为 10%, 可能导致无法上传/下载媒体文件, 无法上传群共享, 无法发送消息等情况, 请检查本地网络状态. 
+[2023-04-14 08:37:50] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-04-14 12:24:57] [ERROR]: Protocol -> unexpected disconnect: read tcp 172.18.237.25:58877->183.47.98.77:14000: wsarecv: An established connection was aborted by the software in your host machine. 
+[2023-04-14 12:24:57] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 180.101.246.49:14000: connectex: A socket operation was attempted to an unreachable host. 
+[2023-04-14 12:24:57] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 180.101.246.49:14000: connectex: A socket operation was attempted to an unreachable host. 
+[2023-04-14 12:24:57] [WARNING]: Bot已离线: connection dropped by server. 
+[2023-04-14 12:25:00] [WARNING]: 将在 3 秒后尝试重连. 重连次数：2/0 
+[2023-04-14 12:25:03] [WARNING]: 尝试重连... 
+[2023-04-14 12:25:03] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 119.147.190.171:8080: connectex: A socket operation was attempted to an unreachable host. 
+[2023-04-14 12:25:03] [WARNING]: 快速重连失败: dial tcp error: dial tcp 119.147.190.171:8080: connectex: A socket operation was attempted to an unreachable host. 
+[2023-04-14 12:25:03] [FATAL]: 快速重连失败, 扫码登录无法恢复会话. 
+[2023-04-14 12:25:06] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 42.81.172.81:80: connectex: A socket operation was attempted to an unreachable host. 
+[2023-04-14 12:25:06] [WARNING]: 恢复会话失败: dial tcp error: dial tcp 42.81.172.81:80: connectex: A socket operation was attempted to an unreachable host. , 尝试使用正常流程登录. 
+[2023-04-14 12:27:09] [FATAL]: 二维码过期 
+[2023-04-14 12:27:12] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-14 12:29:18] [FATAL]: 二维码过期 
+[2023-04-14 12:29:21] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-14 12:31:23] [FATAL]: 二维码过期 
+[2023-04-14 12:31:26] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-14 12:33:29] [FATAL]: 二维码过期 
+[2023-04-14 12:33:32] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-14 12:35:34] [FATAL]: 二维码过期 
+[2023-04-14 12:35:37] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-14 12:37:43] [FATAL]: 二维码过期 
+[2023-04-14 12:37:46] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-14 12:39:47] [FATAL]: 二维码过期 
+[2023-04-14 12:39:50] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-14 12:41:51] [FATAL]: 二维码过期 
+[2023-04-14 12:41:55] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-14 12:43:56] [FATAL]: 二维码过期 
+[2023-04-14 12:43:59] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-14 12:45:59] [FATAL]: 二维码过期 
+[2023-04-14 12:46:03] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-14 12:48:09] [FATAL]: 二维码过期 
+[2023-04-14 12:48:12] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-14 12:50:14] [FATAL]: 二维码过期 
+[2023-04-14 12:50:17] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-14 12:52:23] [FATAL]: 二维码过期 
+[2023-04-14 12:52:26] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-14 12:54:11] [ERROR]: Protocol -> unexpected disconnect: read tcp 172.20.25.89:62992->120.232.19.199:8080: wsarecv: An established connection was aborted by the software in your host machine. 
+[2023-04-14 12:54:11] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 120.232.130.99:8080: connectex: A socket operation was attempted to an unreachable network. 
+[2023-04-14 12:54:11] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 120.232.130.99:8080: connectex: A socket operation was attempted to an unreachable network. 

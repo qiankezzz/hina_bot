@@ -1,0 +1,44 @@
+[2023-04-10 00:00:00] [WARNING]: 转换CQ码 [CQ:image,file=file:///D:\hina bot\hinabot\data\mazui_study/6.png] 时出现错误: file not found 将原样发送. 
+[2023-04-10 00:00:55] [ERROR]: Protocol -> unexpected disconnect: read tcp 172.20.53.200:59191->120.232.19.199:8080: wsarecv: An established connection was aborted by the software in your host machine. 
+[2023-04-10 00:00:55] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 36.155.224.104:443: connectex: A socket operation was attempted to an unreachable network. 
+[2023-04-10 00:00:55] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 36.155.224.104:443: connectex: A socket operation was attempted to an unreachable network. 
+[2023-04-10 00:00:55] [WARNING]: Bot已离线: connection dropped by server. 
+[2023-04-10 00:00:58] [WARNING]: 将在 3 秒后尝试重连. 重连次数：2/0 
+[2023-04-10 00:01:01] [WARNING]: 尝试重连... 
+[2023-04-10 00:01:02] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-04-10 09:30:50] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-04-10 09:58:50] [WARNING]: 获取消息时出现错误: get value error: leveldb: not found 
+[2023-04-10 12:26:15] [ERROR]: Protocol -> unexpected disconnect: read tcp 172.20.53.200:59441->120.232.19.199:8080: wsarecv: An established connection was aborted by the software in your host machine. 
+[2023-04-10 12:30:57] [ERROR]: Protocol -> unexpected disconnect: read tcp 192.168.53.63:62742->36.155.207.201:443: wsarecv: An established connection was aborted by the software in your host machine. 
+[2023-04-10 12:30:57] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 120.232.18.213:8080: connectex: A socket operation was attempted to an unreachable network. 
+[2023-04-10 12:30:57] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 120.232.18.213:8080: connectex: A socket operation was attempted to an unreachable network. 
+[2023-04-10 12:30:57] [WARNING]: Bot已离线: connection dropped by server. 
+[2023-04-10 12:31:00] [WARNING]: 将在 3 秒后尝试重连. 重连次数：2/0 
+[2023-04-10 12:31:03] [WARNING]: 尝试重连... 
+[2023-04-10 12:31:03] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-04-10 16:19:57] [WARNING]: 语音文件 2876CBD143A8889576E52A1D8D39D574.amr 下载失败: Get "": unsupported protocol scheme "" 
+[2023-04-10 22:14:10] [ERROR]: Protocol -> unexpected disconnect: read tcp 172.20.53.200:58136->111.30.169.83:80: wsarecv: An established connection was aborted by the software in your host machine. 
+[2023-04-10 22:14:10] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 36.155.213.147:14000: connectex: A socket operation was attempted to an unreachable network. 
+[2023-04-10 22:14:10] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 36.155.213.147:14000: connectex: A socket operation was attempted to an unreachable network. 
+[2023-04-10 22:14:10] [WARNING]: Bot已离线: connection dropped by server. 
+[2023-04-10 22:14:13] [WARNING]: 将在 3 秒后尝试重连. 重连次数：2/0 
+[2023-04-10 22:14:16] [WARNING]: 尝试重连... 
+[2023-04-10 22:14:16] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 120.241.150.93:443: connectex: A socket operation was attempted to an unreachable network. 
+[2023-04-10 22:14:16] [WARNING]: 快速重连失败: dial tcp error: dial tcp 120.241.150.93:443: connectex: A socket operation was attempted to an unreachable network. 
+[2023-04-10 22:14:16] [FATAL]: 快速重连失败, 扫码登录无法恢复会话. 
+[2023-04-10 22:14:23] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-04-10 22:14:28] [ERROR]: Protocol -> unexpected disconnect: read tcp 172.20.53.200:64835->120.232.130.13:8080: wsarecv: An established connection was aborted by the software in your host machine. 
+[2023-04-10 22:14:28] [ERROR]: Protocol -> test long message server response latency error: Get "https://ssl.htdata.qq.com": read tcp 172.20.53.200:64895->120.233.19.70:443: wsarecv: An established connection was aborted by the software in your host machine. 
+[2023-04-10 22:14:28] [ERROR]: Protocol -> test long message server latency error: failed to connect to server during quality test: dial tcp 120.233.19.70:443: connectex: An established connection was aborted by the software in your host machine. 
+[2023-04-10 22:14:28] [ERROR]: Protocol -> test srv server latency error: failed to connect to server during quality test: dial tcp 120.232.130.90:8080: connectex: A socket operation was attempted to an unreachable network. 
+[2023-04-10 22:14:28] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 36.155.202.141:14000: connectex: A socket operation was attempted to an unreachable network. 
+[2023-04-10 22:14:28] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 36.155.202.141:14000: connectex: A socket operation was attempted to an unreachable network. 
+[2023-04-10 22:14:28] [WARNING]: Bot已离线: connection dropped by server. 
+[2023-04-10 22:14:31] [WARNING]: 将在 3 秒后尝试重连. 重连次数：2/0 
+[2023-04-10 22:14:32] [WARNING]: 警告: 本地连接聊天服务器丢包率为 90%, 可能出现消息丢失/延迟或频繁掉线等情况, 请检查本地网络状态. 
+[2023-04-10 22:14:32] [ERROR]: 错误: 长消息服务器延迟测试失败, 可能导致无法接收/发送长消息的情况, 请检查本地网络状态. 如果您使用的腾讯云服务器, 请修改DNS到114.114.114.114 
+[2023-04-10 22:14:32] [ERROR]: 错误: 长消息服务器响应延迟测试失败, 可能导致无法接收/发送长消息的情况, 请检查本地网络状态. 如果您使用的腾讯云服务器, 请修改DNS到114.114.114.114 
+[2023-04-10 22:14:32] [WARNING]: 警告: 媒体服务器延迟为 9999ms，大于 1000ms, 可能导致无法上传/下载媒体文件, 无法上传群共享, 无法发送消息等情况, 请检查本地网络状态. 
+[2023-04-10 22:14:32] [WARNING]: 警告: 本地连接媒体服务器丢包率为 50%, 可能导致无法上传/下载媒体文件, 无法上传群共享, 无法发送消息等情况, 请检查本地网络状态. 
+[2023-04-10 22:14:34] [WARNING]: 尝试重连... 
+[2023-04-10 22:14:35] [WARNING]: Protocol -> device lock is disable. http api may fail. 

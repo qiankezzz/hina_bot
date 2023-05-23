@@ -1,0 +1,11 @@
+[2023-04-15 16:30:18] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-15 16:32:19] [FATAL]: 二维码过期 
+[2023-04-15 16:32:23] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-15 16:34:24] [FATAL]: 二维码过期 
+[2023-04-15 16:34:27] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-15 16:36:28] [FATAL]: 二维码过期 
+[2023-04-15 16:36:31] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-15 16:37:33] [ERROR]: Protocol -> unexpected disconnect: read tcp 172.20.54.161:64592->120.232.31.106:8080: wsarecv: An established connection was aborted by the software in your host machine. 
+[2023-04-15 16:37:33] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 120.232.67.190:8080: connectex: A socket operation was attempted to an unreachable network. 
+[2023-04-15 16:37:33] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 120.232.67.190:8080: connectex: A socket operation was attempted to an unreachable network. 
+[2023-04-15 19:43:29] [WARNING]: 账号密码未配置, 将使用二维码登录. 

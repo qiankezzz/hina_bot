@@ -1,0 +1,86 @@
+[2023-04-06 00:00:45] [ERROR]: Protocol -> unexpected disconnect: read tcp 172.20.57.36:59094->120.232.31.106:8080: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-04-06 00:00:48] [ERROR]: Protocol -> unexpected disconnect: EOF 
+[2023-04-06 00:01:09] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 120.232.31.250:8080: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-04-06 00:01:09] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 120.232.31.250:8080: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-04-06 00:01:09] [WARNING]: Bot已离线: connection dropped by server. 
+[2023-04-06 00:01:12] [WARNING]: 将在 3 秒后尝试重连. 重连次数：2/0 
+[2023-04-06 00:01:15] [WARNING]: 尝试重连... 
+[2023-04-06 00:01:16] [ERROR]: Protocol -> unexpected disconnect: EOF 
+[2023-04-06 00:01:18] [ERROR]: Protocol -> register client failed: Packet timed out 
+[2023-04-06 00:01:37] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 36.155.208.73:14000: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-04-06 00:01:37] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 36.155.208.73:14000: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-04-06 00:01:45] [WARNING]: 快速重连失败: Packet timed out 
+[2023-04-06 00:01:45] [FATAL]: 快速重连失败, 扫码登录无法恢复会话. 
+[2023-04-06 00:02:39] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 120.232.67.190:8080: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-04-06 00:02:39] [WARNING]: 恢复会话失败: dial tcp error: dial tcp 120.232.67.190:8080: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. , 尝试使用正常流程登录. 
+[2023-04-06 00:04:19] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 120.232.67.190:8080: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-04-06 00:04:19] [FATAL]: 登录时发生致命错误: dial tcp error: dial tcp 120.232.67.190:8080: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-04-06 00:04:22] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-06 00:05:02] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 120.232.67.190:8080: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-04-06 00:05:02] [FATAL]: 登录时发生致命错误: dial tcp error: dial tcp 120.232.67.190:8080: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-04-06 00:05:05] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-06 00:06:43] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 120.241.150.69:8080: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-04-06 00:06:43] [FATAL]: 登录时发生致命错误: dial tcp error: dial tcp 120.241.150.69:8080: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-04-06 00:06:46] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-06 00:07:27] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 120.241.150.69:8080: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-04-06 00:07:27] [FATAL]: 登录时发生致命错误: dial tcp error: dial tcp 120.241.150.69:8080: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-04-06 00:07:30] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-06 00:09:09] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 120.232.31.106:8080: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-04-06 00:09:09] [FATAL]: 登录时发生致命错误: dial tcp error: dial tcp 120.232.31.106:8080: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-04-06 00:09:12] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-06 00:09:53] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 120.232.31.106:8080: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-04-06 00:09:53] [FATAL]: 登录时发生致命错误: dial tcp error: dial tcp 120.232.31.106:8080: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-04-06 00:09:56] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-06 00:10:22] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 120.232.31.106:8080: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-04-06 00:10:22] [FATAL]: 登录时发生致命错误: dial tcp error: dial tcp 120.232.31.106:8080: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-04-06 00:10:25] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-06 00:12:03] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 120.232.31.106:8080: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-04-06 00:12:03] [FATAL]: 登录时发生致命错误: dial tcp error: dial tcp 120.232.31.106:8080: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-04-06 00:12:06] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-06 00:12:47] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 120.232.31.106:8080: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-04-06 00:12:47] [FATAL]: 登录时发生致命错误: dial tcp error: dial tcp 120.232.31.106:8080: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-04-06 00:12:51] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-06 00:14:29] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 120.232.31.106:8080: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-04-06 00:14:29] [FATAL]: 登录时发生致命错误: dial tcp error: dial tcp 120.232.31.106:8080: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-04-06 00:14:32] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-06 00:15:20] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 120.241.150.69:8080: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-04-06 00:15:20] [FATAL]: 登录时发生致命错误: dial tcp error: dial tcp 120.241.150.69:8080: connectex: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
+[2023-04-06 00:15:23] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-06 07:31:51] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-06 07:33:57] [FATAL]: 二维码过期 
+[2023-04-06 07:34:00] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-06 07:36:02] [FATAL]: 二维码过期 
+[2023-04-06 07:36:05] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-06 07:38:06] [FATAL]: 二维码过期 
+[2023-04-06 07:38:09] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-06 07:40:11] [FATAL]: 二维码过期 
+[2023-04-06 07:40:14] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-06 07:42:20] [FATAL]: 二维码过期 
+[2023-04-06 07:42:23] [WARNING]: 账号密码未配置, 将使用二维码登录. 
+[2023-04-06 07:42:41] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-04-06 07:42:42] [ERROR]: Protocol -> parse incoming packet error: return code unsuccessful: -10004 
+[2023-04-06 07:42:42] [ERROR]: Protocol -> parse incoming packet error: return code unsuccessful: -10004 
+[2023-04-06 07:42:42] [ERROR]: Protocol -> parse incoming packet error: return code unsuccessful: -10004 
+[2023-04-06 07:42:56] [ERROR]: Protocol -> sync channel error: Packet timed out 
+[2023-04-06 08:08:10] [WARNING]: 获取消息时出现错误: get value error: leveldb: not found 
+[2023-04-06 16:16:26] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-04-06 16:16:31] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8070/onebot/v11/ws 时出现错误: dial tcp 127.0.0.1:8070: connectex: No connection could be made because the target machine actively refused it. 
+[2023-04-06 20:15:56] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-04-06 20:19:53] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-04-06 20:22:06] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-04-06 20:23:12] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-04-06 20:26:33] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-04-06 20:45:23] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-04-06 20:47:17] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-04-06 20:47:23] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8070/onebot/v11/ws 时出现错误: dial tcp 127.0.0.1:8070: connectex: No connection could be made because the target machine actively refused it. 
+[2023-04-06 20:47:28] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8070/onebot/v11/ws 时出现错误: dial tcp 127.0.0.1:8070: connectex: No connection could be made because the target machine actively refused it. 
+[2023-04-06 20:47:33] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8070/onebot/v11/ws 时出现错误: dial tcp 127.0.0.1:8070: connectex: No connection could be made because the target machine actively refused it. 
+[2023-04-06 20:47:50] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-04-06 20:51:01] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-04-06 22:51:39] [ERROR]: Protocol -> unexpected disconnect: read tcp 172.20.57.36:58690->120.232.67.190:8080: wsarecv: An established connection was aborted by the software in your host machine. 
+[2023-04-06 22:51:39] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 36.155.244.59:80: connectex: A socket operation was attempted to an unreachable network. 
+[2023-04-06 22:51:39] [ERROR]: Protocol -> connect server error: dial tcp error: dial tcp 36.155.244.59:80: connectex: A socket operation was attempted to an unreachable network. 
+[2023-04-06 22:51:39] [WARNING]: Bot已离线: connection dropped by server. 
+[2023-04-06 22:51:42] [WARNING]: 将在 3 秒后尝试重连. 重连次数：2/0 
+[2023-04-06 22:51:45] [WARNING]: 尝试重连... 
+[2023-04-06 22:51:46] [WARNING]: Protocol -> device lock is disable. http api may fail. 
