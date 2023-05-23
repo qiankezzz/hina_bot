@@ -1,4 +1,8 @@
-<div align=center><img width="320" height="320" src="https://raw.githubusercontent.com/qiankezzz/hina_bot/main/logo.png"/></div>
+<div align=center><img width="320" height="320" src="https://raw.githubusercontent.com/qiankezzz/hina_bot/main/logo.jpg"/></div>
+
+![maven](https://img.shields.io/badge/python-3.8%2B-blue)
+![maven](https://img.shields.io/badge/nonebot-2.0.0-yellow)
+![maven](https://img.shields.io/badge/go--cqhttp-1.0.0-red)
 
 # hina_bot
 ****
