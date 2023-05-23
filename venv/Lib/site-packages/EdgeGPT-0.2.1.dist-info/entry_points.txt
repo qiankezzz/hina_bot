@@ -1,0 +1,3 @@
+[console_scripts]
+edge-gpt = EdgeGPT:main
+edge-gpt-image = ImageGen:main

@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: BingImageCreator
+Version: 0.1.3
+Summary: High quality image generation by Microsoft. Reverse engineered API.
+Home-page: https://github.com/acheong08/BingImageCreator
+Author: Antonio Cheong
+Author-email: acheong@student.dalat.org
+License: GNU General Public License v2.0
+Project-URL: Bug Report, https://github.com/acheong08/BingImageCreator/issues/new
+Classifier: License :: OSI Approved :: GNU General Public License v2 (GPLv2)
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp
+Requires-Dist: regex
+Requires-Dist: requests
+
+# BingImageCreator
+High quality image generation by Microsoft. Reverse engineered API.
+
+`pip3 install --upgrade BingImageCreator`
+
+```
+ $ python3 -m BingImageCreator -h
+usage: BingImageCreator.py [-h] -U U --prompt PROMPT [--output-dir OUTPUT_DIR]
+
+options:
+  -h, --help            show this help message and exit
+  -U U                  Auth cookie from browser
+  --prompt PROMPT       Prompt to generate images for
+  --asyncio             Use async to sync png
+  --output-dir OUTPUT_DIR
+                        Output directory
+```
+
+[Developer Documentation](https://github.com/acheong08/BingImageCreator/blob/main/DOCUMENTATION.md)
+
+
+## Getting authentication
+### Chromium based browsers (Edge, Opera, Vivaldi, Brave)
+- Go to https://bing.com/.
+- F12 to open console
+- In the JavaScript console, type `cookieStore.get("_U").then(result => console.log(result.value))` and press enter
+- Copy the output. This is used in `--U` or `auth_cookie`.
+
+### Firefox
+- Go to https://bing.com/.
+- F12 to open developer tools
+- navigate to the storage tab
+- expand the cookies tab
+- click on the `https://bing.com` cookie
+- copy the value from the `_U`

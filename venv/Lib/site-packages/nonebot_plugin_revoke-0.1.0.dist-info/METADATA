@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-revoke
+Version: 0.1.0
+Summary: 
+License: MIT
+Author: ssttkkl
+Author-email: huang.wen.long@hotmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: nonebot-adapter-onebot (>=2.2.0,<3.0.0)
+Requires-Dist: nonebot2 (>=2.0.0rc2,<3.0.0)
+Description-Content-Type: text/plain
+
+<!-- markdownlint-disable MD033 MD036 MD041 -->
+
+<p align="center">
+  <a href="https://v2.nonebot.dev/"><img src="https://v2.nonebot.dev/logo.png" width="200" height="200" alt="nonebot"></a>
+</p>
+
+<div align="center">
+
+nonebot-plugin-revoke
+============
+
+_✨ 让机器人撤回自己发出的消息 ✨_
+
+</div>
+
+<p align="center">
+  <a href="https://raw.githubusercontent.com/ssttkkl/nonebot-plugin-revoke/master/LICENSE">
+    <img src="https://img.shields.io/github/license/ssttkkl/nonebot-plugin-revoke.svg" alt="license">
+  </a>
+  <a href="https://pypi.python.org/pypi/nonebot-plugin-revoke">
+    <img src="https://img.shields.io/pypi/v/nonebot-plugin-revoke.svg" alt="pypi">
+  </a>
+  <img src="https://img.shields.io/badge/python-3.9+-blue.svg" alt="python">
+</p>
+
+
+## 使用方法
+
+对某条消息**回复**`/revoke`或`/撤回`
+
+（注意：仅超级用户可用）
+

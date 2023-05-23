@@ -1,0 +1,81 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-resolver
+Version: 1.0.11
+Summary: NoneBot2链接分享解析器插件。解析视频、图片链接/小程序插件，tiktok、bilibili、twitter等实时发送！
+Home-page: https://github.com/zhiyu1998/nonebot_plugin_resolver
+Keywords: nonebot,nonebot2,resolver
+Author: zhiyu1998
+Author-email: renzhiyu0416@qq.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Dist: aiohttp (>=3.7,<4.0)
+Requires-Dist: beautifulsoup4 (>=4.11,<5.0)
+Requires-Dist: httpx (>=0.23,<0.24)
+Requires-Dist: lxml (>=4.9,<5.0)
+Requires-Dist: nonebot-adapter-onebot (>=2.0.0-beta.1,<3.0.0)
+Requires-Dist: nonebot2 (>=2.0.0-beta.5,<3.0.0)
+Requires-Dist: tweepy (>=4.12,<5.0)
+Project-URL: Repository, https://github.com/zhiyu1998/nonebot_plugin_resolver
+Description-Content-Type: text/markdown
+
+<div align="center">
+  <a href="https://v2.nonebot.dev/store"><img src="https://github.com/A-kirami/nonebot-plugin-template/blob/resources/nbp_logo.png" width="180" height="180" alt="NoneBotPluginLogo"></a>
+  <br>
+  <p><img src="https://github.com/A-kirami/nonebot-plugin-template/blob/resources/NoneBotPlugin.svg" width="240" alt="NoneBotPluginText"></p>
+</div>
+
+<div align="center">
+
+# nonebot-plugin-resolver
+
+_✨ NoneBot2 链接分享解析器插件 ✨_
+
+
+<a href="./LICENSE">
+    <img src="https://img.shields.io/github/license/owner/nonebot-plugin-resolver.svg" alt="license">
+</a>
+<a href="https://pypi.org/project/nonebot-plugin-resolver">
+    <img src="https://img.shields.io/pypi/v/nonebot-plugin-resolver.svg" alt="pypi">
+</a>
+<img src="https://img.shields.io/badge/python-3.9+-blue.svg" alt="python">
+
+</div>
+
+## 📖 介绍
+
+适用于NoneBot2的解析视频、图片链接/小程序插件，tiktok、bilibili、twitter等实时发送！
+## 💿 安装
+
+1. 使用 nb-cli 安装，不需要手动添加入口，更新使用 pip
+
+```
+nb plugin install nonebot_plugin_resolver
+```
+
+2. 使用 pip 安装和更新，初次安装需要手动添加入口
+
+```
+pip install --upgrade nonebot_plugin_resolver
+```
+
+## ⚙️ 配置
+
+在 nonebot2 项目的`.env`文件中添加下表中的可选配置
+
+```
+# twitter的token和本地代理
+bearer_token = ""
+resolver_proxy = "http://127.0.0.1:7890"
+```
+
+## 🎉 使用 & 效果图
+![help](./img/example.png)
+![help](./img/example2.png)
+![help](./img/example3.png)
+![help](./img/example4.png)
+![help](./img/example5.png)
+
+
