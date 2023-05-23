@@ -11,7 +11,7 @@
   
 ## 关于
 
-作为大一python课设提交的QQ机器人(问题可能有点多，仍为测试版，本人做着自用的)，某些功能学习借鉴了大佬们的代码，
+作为大一python课设提交的QQ机器人(问题可能有点多，仍为测试版，本人做着自用的)，某些功能学习借鉴了大佬们的代码
 
 日菜bot，实现了一些对群友的娱乐功能和实用功能（大概）。
 
@@ -39,20 +39,34 @@ _✨ 跨平台 Python 异步机器人框架 ✨_
 
 ```
 
-# 配置gocq
 
-在 https://github.com/Mrs4s/go-cqhttp 下载Releases最新版本，运行后选择反向代理，
-  后将gocq的配置文件config.yml中的universal改为universal: ws://127.0.0.1:8080/onebot/v11/ws
-
-gocq配置详情稍后补充
 
 # 获取代码
 git clone https://github.com/qiankezzz/hina_bot.git
 
+# 配置gocq
+
+在 https://github.com/Mrs4s/go-cqhttp 下载Releases最新版本(也可使用项目中的go-cqhttp)，运行后选择反向代理，
+  后将gocq的配置文件config.yml中的universal改为universal: ws://127.0.0.1:8080/onebot/v11/ws
+   并填入Bot的qq号及密码（可以不填）
+
+gocq配置详情稍后补充
+
+# 运行gocq
+运行go-cqhttp.bat
+
 # 进入目录
 cd hina_bot
 
-# 开始运行
+# 配置虚拟环境(必要时需要管理员身份运行)
+virtualenv venv
+
+# 激活虚拟环境
+cd ./venv/Scripts
+activate
+
+# 返回目录后开始运行
+cd ../..
 python bot.py
 ```
 

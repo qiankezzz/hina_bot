@@ -1,0 +1,9 @@
+[2023-05-02 10:15:34] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-05-02 10:15:40] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8070/onebot/v11/ws 时出现错误: dial tcp 127.0.0.1:8070: connectex: No connection could be made because the target machine actively refused it. 
+[2023-05-02 10:15:45] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8070/onebot/v11/ws 时出现错误: dial tcp 127.0.0.1:8070: connectex: No connection could be made because the target machine actively refused it. 
+[2023-05-02 10:15:50] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8070/onebot/v11/ws 时出现错误: dial tcp 127.0.0.1:8070: connectex: No connection could be made because the target machine actively refused it. 
+[2023-05-02 10:15:55] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8070/onebot/v11/ws 时出现错误: dial tcp 127.0.0.1:8070: connectex: No connection could be made because the target machine actively refused it. 
+[2023-05-02 10:16:00] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8070/onebot/v11/ws 时出现错误: dial tcp 127.0.0.1:8070: connectex: No connection could be made because the target machine actively refused it. 
+[2023-05-02 10:16:05] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8070/onebot/v11/ws 时出现错误: dial tcp 127.0.0.1:8070: connectex: No connection could be made because the target machine actively refused it. 
+[2023-05-02 10:16:10] [WARNING]: 连接到反向WebSocket Universal服务器 ws://127.0.0.1:8070/onebot/v11/ws 时出现错误: dial tcp 127.0.0.1:8070: connectex: No connection could be made because the target machine actively refused it. 
+[2023-05-02 22:21:08] [ERROR]: Protocol -> unexpected disconnect: read tcp 192.168.10.5:55162->120.232.19.199:8080: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 

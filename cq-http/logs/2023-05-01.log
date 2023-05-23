@@ -1,0 +1,5 @@
+[2023-05-01 08:39:46] [WARNING]: Protocol -> device lock is disable. http api may fail. 
+[2023-05-01 08:40:03] [WARNING]: 检查协议更新失败: Get "https://fastly.jsdelivr.net/gh/RomiChan/protocol-versions@master/android_pad.json": context deadline exceeded (Client.Timeout exceeded while awaiting headers) 
+[2023-05-01 08:40:18] [WARNING]: 监听反向WS Universal时出现错误: websocket: close 1006 (abnormal closure): unexpected EOF 
+[2023-05-01 08:40:23] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: write tcp 127.0.0.1:50574->127.0.0.1:8070: use of closed network connection 
+[2023-05-01 22:21:23] [ERROR]: Protocol -> unexpected disconnect: read tcp 192.168.10.5:50568->120.232.67.190:8080: wsarecv: A connection attempt failed because the connected party did not properly respond after a period of time, or established connection failed because connected host has failed to respond. 
