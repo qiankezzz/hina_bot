@@ -1,3 +1,5 @@
+<div align=center><img width="320" height="320" src="https://raw.githubusercontent.com/qiankezzz/hina_bot/main/logo.png"/></div>
+
 # hina_bot
 ****
 基于 Nonebot2 和 go-cqhttp 开发的QQ群娱乐机器人
