@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/../hina_bot/.idea/hina_bot.iml" filepath="$PROJECT_DIR$/../hina_bot/.idea/hina_bot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/hinabot_plugin.iml" filepath="$PROJECT_DIR$/.idea/hinabot_plugin.iml" />
     </modules>
   </component>
 </project>

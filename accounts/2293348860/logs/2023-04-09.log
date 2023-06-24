@@ -1,6 +1,0 @@
-[2023-04-09 01:03:14] [WARNING]: 监听反向WS Universal时出现错误: read tcp 127.0.0.1:61911->127.0.0.1:8070: wsarecv: An existing connection was forcibly closed by the remote host. 
-[2023-04-09 01:03:19] [WARNING]: 向反向WS Universal服务器推送 Event 时出现错误: write tcp 127.0.0.1:61911->127.0.0.1:8070: use of closed network connection 
-[2023-04-09 11:41:37] [WARNING]: Protocol -> device lock is disable. http api may fail. 
-[2023-04-09 11:42:15] [WARNING]: Protocol -> device lock is disable. http api may fail. 
-[2023-04-09 15:30:00] [WARNING]: 转换CQ码 [CQ:image,file=file:///D:\hina bot\hinabot\data\mazui_study/12.jpg] 时出现错误: file not found 将原样发送. 
-[2023-04-09 19:46:26] [WARNING]: Protocol -> device lock is disable. http api may fail. 
