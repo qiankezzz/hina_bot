@@ -104,6 +104,7 @@ python bot.py
 ## 感谢
 
 以上标注使用插件的各位作者大大~
+
 [botuniverse / onebot](https://github.com/botuniverse/onebot) ：超棒的机器人协议  
 [Mrs4s / go-cqhttp](https://github.com/Mrs4s/go-cqhttp) ：cqhttp的golang实现，轻量、原生跨平台.  
 [nonebot / nonebot2](https://github.com/nonebot/nonebot2) ：跨平台Python异步机器人框架 
