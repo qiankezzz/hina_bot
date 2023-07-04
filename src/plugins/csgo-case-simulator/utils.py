@@ -116,6 +116,7 @@ class Utils:
         return buf.getvalue()
 
     async def img_from_url(self, url: str) -> str:
+
         async with httpx.AsyncClient() as client:
             response = await client.get(url)
             return response.content

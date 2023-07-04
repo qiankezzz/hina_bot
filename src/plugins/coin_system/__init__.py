@@ -59,4 +59,4 @@ async def _():
     bot.logger.info('每日增加coin任务执行成功')
     group_id_list = await get_all_group_id()
     for group_id in group_id_list:
-        await bot.send_group_msg(group_id=config.group_id, message='每日的coin刷新了哦~')
+        await bot.send_group_msg(group_id=group_id, message='每日的coin刷新了哦~')

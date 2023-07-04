@@ -7,22 +7,19 @@ import re
 import os
 from pathlib import Path
 
+
 class daily_math(object):
 
-    def __init__(self,title,url):
+    def __init__(self, title, url):
         self.title = title
         self.url = url
 
     def __dict__(self):
-        return {'title':self.title, 'url':self.url}
-
-
-
-
+        return {'title': self.title, 'url': self.url}
 
 
 class WebSpider(object):
-    
+
     def __init__(self):
         # 考研每日一题
 
@@ -33,7 +30,6 @@ class WebSpider(object):
             'referer': 'https://www.bilibili.com/',
             'cookies': 'buvid4=3E6627AC-7EED-9FDE-9E34-D595C8A096F690804-022061816-cWZGbE4cldr4uOyI4FoEIQ==; b_nut=1675737874; buvid3=6849DF18-E869-B243-C927-D74ADFBB8A7873882infoc; hit-new-style-dyn=0; _uuid=C66657110-852E-296B-107C3-26164EEDBB4A76730infoc; hit-dyn-v2=1; buvid_fp_plain=undefined; SESSDATA=acfe2426,1691289889,9eb56*22; bili_jct=3a7307e4ce5390a173ad5355d18003b2; DedeUserID=176454210; DedeUserID__ckMd5=6b3ad69123d48aac; sid=71vgt7bi; CURRENT_FNVAL=4048; rpdid=|(J~RYul~|km0J\'uY~l~J)Rkk; nostalgia_conf=-1; i-wanna-go-back=-1; b_ut=5; LIVE_BUVID=AUTO2016760033322926; header_theme_version=CLOSE; CURRENT_QUALITY=80; CURRENT_PID=62a4a130-cd1f-11ed-9f41-1b6f57bc6201; FEED_LIVE_VERSION=V8; PVID=1; home_feed_column=5; fingerprint=b71c352af063eaa5e333989d4348d18b; buvid_fp=b71c352af063eaa5e333989d4348d18b; share_source_origin=copy_web; bp_video_offset_176454210=787628381643473000; innersign=1; bsource=search_baidu; browser_resolution=1708-818; b_lsid=C1695973_187ACE8C1BF'
         }
-
 
     # def parse(self) -> tuple:
     #
@@ -72,7 +68,6 @@ class WebSpider(object):
         list_title = [title['title'] for title in list_math]
         list_num = [num['pos_num'] for num in list_math]
 
-
         return list_url[0], list_title[0], list_url, list_title, list_num
 
     def parse_loop(self):
@@ -100,7 +95,7 @@ class WebSpider(object):
         for title, url in zip(list_title, list_url):
             self.write(daily_math(title=title, url=url))
 
-    def save_all_pic(self,index: int = 0) -> tuple:
+    def save_all_pic(self, index: int = 0) -> tuple:
 
         """
         保存题目图片
@@ -110,17 +105,17 @@ class WebSpider(object):
         2:补充路径 : str
         3:链接 : str
         """
-        list_pic : list[str] = self.parse()[2]
+        list_pic: list[str] = self.parse()[2]
         list_name: str = self.parse()[3][index]
         # last_name = self.parse()[3][index+1]
-        list_pic[index] = list_pic[index].replace("amp;","")
-        res = requests.get(list_pic[index],headers=self.headers)
+        list_pic[index] = list_pic[index].replace("amp;", "")
+        res = requests.get(list_pic[index], headers=self.headers)
 
-        today_pic: str = re.findall(r"(今日习题.*?)(data-src=\")(.*?)\"",res.text)[0][2]
+        today_pic: str = re.findall(r"(今日习题.*?)(data-src=\")(.*?)\"", res.text)[0][2]
         try:
-            today_extra: str = re.findall(r"(知识.*?)(data-src=\")(.*?)\"",res.text)[0][2]
+            today_extra: str = re.findall(r"(知识.*?)(data-src=\")(.*?)\"", res.text)[0][2]
         except:
-            today_extra : str = None
+            today_extra: str = None
         # list_pic: list = re.findall(r"\"https://mmbiz.qpic.cn/mmbiz_png/.*?\"", res.text)
 
         url: str = today_pic
@@ -132,8 +127,9 @@ class WebSpider(object):
         if not os.path.exists(path):
             os.makedirs(path)
 
-        if self.save_pic(url, name) and self.save_pic(url_extra,name_extra):
-            return os.path.abspath(f"./data/daily_math/{name}"), list_name, os.path.abspath(f"./data/daily_math/{name_extra}"), list_pic[index]
+        if self.save_pic(url, name) and self.save_pic(url_extra, name_extra):
+            return os.path.abspath(f"./data/daily_math/{name}"), list_name, os.path.abspath(
+                f"./data/daily_math/{name_extra}"), list_pic[index]
         return os.path.abspath(f"./data/daily_math/{name}"), list_name, None, list_pic[index]
 
         # for url in list_pic:
@@ -149,13 +145,13 @@ class WebSpider(object):
         #
         #         return os.path.abspath(f"./data/daily_math/{name}"),list_name
 
-    def save_pic (self,url,name) -> bool:
+    def save_pic(self, url, name) -> bool:
 
         if url:
             res = requests.get(url)
             len_res = len(res.content)
             # path: Path = Path().absolute() / rf".\data\daily_math\{name}"
-            name = name.replace("/"," ")
+            name = name.replace("/", " ")
             path: str = os.path.abspath(f"./data/daily_math/{name}")
             try:
                 with open(path, 'wb') as f:
@@ -172,14 +168,13 @@ class WebSpider(object):
         res = requests.get(url)
         today_pic: str = re.findall(r"(今日习题.*?)(data-src=\")(.*?)\"", res.text)[0][2]
         return self.save_pic(today_pic, name)
-        
 
     def get_weekpra(self):
 
         self.url = "https://mp.weixin.qq.com/mp/appmsgalbum?__biz=Mzk0NjA5MjEzNQ==&action=getalbum&album_id=2895437849775308801&scene=173&from_msgid=2247515620&from_itemidx=1&count=3&nolastread=1#wechat_redirect"
         res = requests.get(self.url)
-        url_list: list[tuple[str]] = re.findall('(url: \')(.*)(\')',res.text) # 元祖列表
-        name_list = re.findall('(title: \')(.*?)(\')',res.text)
+        url_list: list[tuple[str]] = re.findall('(url: \')(.*)(\')', res.text)  # 元祖列表
+        name_list = re.findall('(title: \')(.*?)(\')', res.text)
         for index, tu in enumerate(url_list):
             if url_list:
                 try:
@@ -198,14 +193,14 @@ class WebSpider(object):
             else:
                 return ""
 
-    def record_download (self,name: str) -> bool:
+    def record_download(self, name: str) -> bool:
 
         path = "./data/daily_math/exist"
         list_download = []
         if not os.path.exists(path):
             os.makedirs(path)
         try:
-            with open(path+"/exist.json", 'r') as f:
+            with open(path + "/exist.json", 'r') as f:
                 content = json.load(f)
                 list_download = content['list_download']
         except FileNotFoundError:
@@ -215,13 +210,13 @@ class WebSpider(object):
         if name in list_download:
             return False
 
-        with open(path+"/exist.json", 'w',encoding='utf-8') as f:
+        with open(path + "/exist.json", 'w', encoding='utf-8') as f:
             if name not in list_download or list_download:
                 list_download.append(name)
-                json.dump({'list_download':list_download},f,indent=4)
+                json.dump({'list_download': list_download}, f, indent=4)
         return True
 
-    def write(self,math: daily_math):
+    def write(self, math: daily_math):
 
         path = "./data/daily_math/content"
 
@@ -233,9 +228,8 @@ class WebSpider(object):
         if math.__dict__() not in list_content:
             list_content.append(math.__dict__())
 
-        with open(path+"/content.json", 'w', encoding='utf-8')as f:
-            json.dump(list_content,f,ensure_ascii=False)
-
+        with open(path + "/content.json", 'w', encoding='utf-8') as f:
+            json.dump(list_content, f, ensure_ascii=False)
 
     def read(self) -> list[dict]:
 
@@ -250,4 +244,5 @@ class WebSpider(object):
 
 if __name__ == '__main__':
     wb = WebSpider()
-    wb.parse_loop()
+    path, name, path_extra, url = wb.save_all_pic()[0], wb.save_all_pic()[1], wb.save_all_pic()[2], wb.save_all_pic()[3]
+    wb.write(daily_math(name, url))

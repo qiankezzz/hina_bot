@@ -1,7 +1,7 @@
-
 from nonebot import on_command, require
 from nonebot.params import MessageSegment
 import os, requests
+
 require("nonebot_plugin_apscheduler")
 from nonebot_plugin_apscheduler import scheduler
 from nonebot.adapters.onebot.v11 import Bot, MessageSegment, Message, MessageEvent
@@ -10,7 +10,6 @@ from nonebot.matcher import Matcher
 import nonebot
 from .utils import WebSpider, daily_math
 from .config import Config
-
 
 # 配置信息
 global_config = nonebot.get_driver().config
@@ -25,20 +24,22 @@ else:
     raise Exception("daily_math config error, please check env file")
 
 # 注册响应器
-daily_math_ = on_command("每日一题",priority=4)
-daily_math_check = on_command("check",priority=4)
-daily_math_init = on_command("checkinit",priority=4)
+daily_math_ = on_command("每日一题", priority=4)
+daily_math_check = on_command("check", priority=4)
+daily_math_init = on_command("checkinit", priority=4)
 
 '''
 存在目录
 使得输入一题发送一题
 '''
 
+
 @daily_math_init.handle()
 async def _():
     wb = WebSpider()
     wb.parse_loop()
     await daily_math_init.finish("初始化完成!")
+
 
 @daily_math_.handle()
 async def _(bot: Bot, event: MessageEvent):
@@ -51,8 +52,8 @@ async def _(bot: Bot, event: MessageEvent):
         return {"type": "node", "data": {"name": 'hina', "uin": 2293348860, "content": msg}}
 
     for title, url in zip(wb.parse()[3], wb.parse()[2]):
-        url = url.replace("amp;","")
-        temp_str =  title + "\n" + url
+        url = url.replace("amp;", "")
+        temp_str = title + "\n" + url
         list_content.append(temp_str)
 
     messages = [to_json(msg) for msg in list_content]
@@ -71,15 +72,15 @@ async def _(bot: Bot, event: MessageEvent):
         )
 
 
-
 # 查看指定题目
 @daily_math_check.handle()
-async def _(matcher: Matcher,args: Message = CommandArg()):
+async def _(matcher: Matcher, args: Message = CommandArg()):
     if title := args.extract_plain_text():
-        matcher.set_arg("title",args)
+        matcher.set_arg("title", args)
 
-@daily_math_check.got("title",prompt="想看哪一题呢~")
-async def _(title:str = ArgPlainText()):
+
+@daily_math_check.got("title", prompt="想看哪一题呢~")
+async def _(title: str = ArgPlainText()):
     wb = WebSpider()
     name = ""
     url = ""
@@ -92,10 +93,10 @@ async def _(title:str = ArgPlainText()):
 
     try:
         if name:
-            path = "file:///"+os.path.abspath(f"./data/daily_math/{name}.png")
+            path = "file:///" + os.path.abspath(f"./data/daily_math/{name}.png")
             if os.path.exists(path):
-                await daily_math_check.send(Message(f'好的噜~\n{name}')+MessageSegment.image(file=path))
-            elif wb.save_precise_pic(url, name+".png"):
+                await daily_math_check.send(Message(f'好的噜~\n{name}') + MessageSegment.image(file=path))
+            elif wb.save_precise_pic(url, name + ".png"):
                 await daily_math_check.send(Message(f'好的噜~\n{name}') + MessageSegment.image(file=path))
             else:
                 await daily_math_check.finish("查询时出现错误~")
@@ -108,35 +109,23 @@ async def _(title:str = ArgPlainText()):
     pass
 
 
-# @scheduler.scheduled_job("cron",hour=18,minute=30,id="19198100")
-# async def _():
-#     bot = nonebot.get_bot()
-#     wb = WebSpider()
-#     url = wb.save_all_pic()[3]
-#     for group_id in plugin_config.daily_group_id:
-#         await bot.send_group_msg(
-#             message=Message(f"昨日的午练答案请去这里查看~\n{url}"),
-#             group=group_id
-#         )
-
 # 定时提醒
-@scheduler.scheduled_job("cron",hour=12,minute=30,id="114514")
+@scheduler.scheduled_job("cron", hour=12, minute=30, id="114514")
 async def _():
     bot = nonebot.get_bot()
     wb = WebSpider()
     path, name, path_extra, url = wb.save_all_pic()[0], wb.save_all_pic()[1], wb.save_all_pic()[2], wb.save_all_pic()[3]
     wb.write(daily_math(name, url))
-    
+
     for group_id in plugin_config.daily_group_id:
-        
+
         if path:
             await bot.send_group_msg(
-                message=Message(f"今日的午练是~\n{name}")+MessageSegment.image(file="file:///"+path),
+                message=Message(f"今日的午练是~\n{name}") + MessageSegment.image(file="file:///" + path),
                 group_id=group_id
             )
         if path_extra:
             await bot.send_group_msg(
-                message=Message(f"知识补充~"+MessageSegment.image(file="file:///" + path_extra)),
+                message=Message(f"知识补充~" + MessageSegment.image(file="file:///" + path_extra)),
                 group_id=group_id
             )
-

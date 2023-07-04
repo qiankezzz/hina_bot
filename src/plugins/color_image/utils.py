@@ -59,3 +59,7 @@ async def read_date() -> bool:
             if (now_CD - old_CD).seconds > 20:
                 return True
             return False
+        
+
+if __name__ == '__main__':
+     print(dir(json))
